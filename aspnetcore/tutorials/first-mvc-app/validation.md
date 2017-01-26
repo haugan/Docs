@@ -79,7 +79,7 @@ After you disable JavaScript, post invalid data and step through the debugger.
 
 ![While debugging on a post of invalid data, Intellisense on ModelState.IsValid shows the value is false.](validation/_static/ms.png)
 
-Below is portion of the *Create.cshtml* view template that you scaffolded earlier in the tutorial. It's used by the action methods shown above both to display the initial form and to redisplay it in the event of an error.
+Below is a portion of the *Create.cshtml* view template that you scaffolded earlier in the tutorial. It's used by the action methods shown above both to display the initial form and to redisplay it in the event of an error.
 
 [!code-HTML[Main](../../tutorials/first-mvc-app/start-mvc/sample2/src/MvcMovie/Views/Movies/CreateRatingBrevity.cshtml?highlight=9,10,17,18,13&range=9-35)]
 
